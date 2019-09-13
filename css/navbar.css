@@ -1,0 +1,44 @@
+.navbar {
+  height: 70px;
+  /* width: 100vw; */
+  background: var(--cream);
+  box-shadow: var(--shadow-lg);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--tomato);
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 10px;
+  text-decoration: none;
+  color: var(--gunmetal)
+}
+
+.nav-link:hover {
+  color: var(--tomato);
+  box-shadow: var(--shadow-lg);
+}
+
+.iconn {
+  margin: 15px;
+  animation: spin 10s linear infinite, pulse 5s infinite;
+  animation-play-state: paused;
+}
+
+.iconn:hover {
+animation-play-state: running;
+}
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}

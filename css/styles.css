@@ -1,0 +1,21 @@
+@import "./navbar.css";
+@import "./features.css";
+@import "./footer.css";
+
+:root {
+  --tomato: #ff604c;
+  --gunmetal: #2c363f;
+  --cream: #f2f5ea;
+  --grey: #d6dbd2;
+  --vanilla: #bbc7a4;
+
+  --shadow-lg: 0 15px 30px 0 rgba(0,0,0,0.11);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

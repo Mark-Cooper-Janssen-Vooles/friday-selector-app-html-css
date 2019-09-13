@@ -1,0 +1,90 @@
+.features-img {
+  background-image: url('./patrick-tomasso-GXXYkSwndP4-unsplash.jpg');
+  /* opacity:0.4; */
+  background-size: cover;
+  height: calc(100vh - 70px - 40px);
+}
+
+.features {
+  /* height: calc(100vh - 70px); */
+  /* width: 100vw; */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  color: var(--tomato);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  /* height: calc(100vh - 70px - 60px); */
+  /* width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 200px;
+  width: 25%;
+  border: 5px solid rgba(0, 0, 0, 0);
+  /* margin: 0 5px; */
+
+  background: rgba(255, 0, 0, 0.194);
+
+  box-shadow: var(--shadow-lg);
+  color: var(--cream);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card p {
+  margin: 10px;
+}
+
+.card h3 {
+  margin: 0px;
+}
+
+.img {
+  height: 50%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.31);
+}
+
+@media only screen and (max-width: 800px) {
+  .features-img {
+    height: 100%;
+  }
+
+  .card {
+    width: 50%;
+
+    box-sizing: border-box;
+    border: 5px solid rgba(0, 0, 0, 0);
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .features-img {
+    height: 100%;
+  }
+
+  .card {
+    width: 100%;
+    /* box-sizing: border-box; */
+  }
+}

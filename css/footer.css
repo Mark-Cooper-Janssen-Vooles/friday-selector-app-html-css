@@ -1,0 +1,21 @@
+.footer {
+  height: 40px;
+  /* width: 100vw; */
+  background: var(--cream);
+  box-shadow: var(--shadow-lg);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--gunmetal);
+}
+
+.footer p {
+  margin: 10px;
+
+}
+
+#form {
+  margin: 10px;
+}
